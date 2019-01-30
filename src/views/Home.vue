@@ -12,11 +12,6 @@
             return {}
         },
         methods: {
-            initData() {
-            },
-            search() {
-                this.initData()
-            }
         },
     }
 </script>

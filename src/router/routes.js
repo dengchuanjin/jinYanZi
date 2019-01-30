@@ -1,7 +1,13 @@
 export default [
     {
         path: '/',
-        name: 'Home',
-        component: () => import ('@/views/Home'),
+        name: 'Login',
+        component: () => import ('@/views/Login'),
     },
+    //服务员首页
+    {
+        path: '/waiterHomePage',
+        name: 'WaiterHomePage',
+        component: () => import ('@/views/waiter/WaiterHomePage'),
+    }
 ]
